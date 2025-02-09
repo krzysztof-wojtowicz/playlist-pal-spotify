@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply bg-primary text-secondary px-4 py-3 shadow-[9px_9px_0px_0px_rgba(23,55,33,1)];
+}
+
+.btn-secondary {
+  @apply bg-secondary text-accent px-4 py-3 shadow-[9px_9px_0px_0px_rgba(23,55,33,1)];
+}
+
+.input-field {
+  @apply bg-secondary px-4 py-2 shadow-[9px_9px_0px_0px_rgba(23,55,33,1)] focus:outline-none text-accent rounded-none;
+}
